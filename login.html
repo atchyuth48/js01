@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<style>
+@media only screen and (max-width: 500px) {
+.center-block{width:100% !important;}
+}
+@media only screen and (max-width: 650px) {
+.center-block{width:80% !important;}
+
+}
+</style>
+<body>  
+<div class="container">
+  <div class="row">
+    <h1>Login form</h1>
+    <div class="center-block" style="width:25%; background-color:#F0F0F0; padding:20px;">
+	<div class="form-group">
+	<label for="email" class="sr-only">Email</label>
+	<input type="text" name="email" id="email" class="form-control" placeholder="Email">
+	</div>
+	
+	<div class="form-group">
+	<label for="psw" class="sr-only">Password</label>
+	<input type="password" name="psw" id="psw" class="form-control" placeholder="Password"><br>
+	<input type="submit" name="submit" value="Login" class="btn btn-danger">
+	</div>
+	
+	</div>
+    
+  </div>
+</div>
+
+</body>
+</html>
